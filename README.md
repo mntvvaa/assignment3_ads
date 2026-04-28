@@ -58,8 +58,10 @@ Linear Search checks each element one by one until the target value is found.
 <img width="1280" height="800" alt="5cb9f96a-a9dc-4a5b-b436-6c316ac5da15" src="https://github.com/user-attachments/assets/d581ad25-b2ed-41db-a8a1-eb3ffabee5e8" />
 <img width="1280" height="800" alt="44358294-e76f-4722-bed4-b7708862f425" src="https://github.com/user-attachments/assets/1279987c-66fd-4bdf-a858-790d30ad1c46" />
 <img width="1280" height="800" alt="11c86310-2cdc-45c6-92ef-733e2672fe55" src="https://github.com/user-attachments/assets/946fe4ab-d3b8-464a-9ecb-32927adc7256" />
-## E. Reflection
 
-This project helped me understand the difference between theoretical and practical performance of algorithms. I learned that Bubble Sort is inefficient for large datasets, while Merge Sort performs much better due to its O(n log n) complexity.
-Linear Search is simple but not optimal for large data sizes. The experiment also showed that execution time can vary slightly due to system performance and JVM optimization.
-One challenge was implementing Merge Sort correctly and ensuring accurate time measurement using `System.nanoTime()`. Overall, this project improved my understanding of algorithm efficiency and real-world performance analysis.
+### E. Reflection
+-This project helped me understand the difference between theoretical and practical performance of algorithms. I learned that Bubble Sort is inefficient for large datasets, while Merge Sort performs much better due to its O(n log n) complexity.
+
+-Linear Search is simple but not optimal for large data sizes. The experiment also showed that execution time can vary slightly due to system performance and JVM optimization.
+
+-One challenge was implementing Merge Sort correctly and ensuring accurate time measurement using `System.nanoTime()`. Overall, this project improved my understanding of algorithm efficiency and real-world performance analysis.
