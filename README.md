@@ -45,6 +45,14 @@ Linear Search checks each element one by one until the target value is found.
 - 10 elements
 - 100 elements
 - 1000 elements
+###  Execution Time Results (nanoseconds)
+
+| Array Size | Bubble Sort | Merge Sort | Linear Search |
+|------------|-------------|------------|---------------|
+| 10         | 11100       | 20400      | 2800          |
+| 100        | 344000      | 115500     | 3300          |
+| 1000       | 8439900     | 258800     | 10100         |
+
 
 ---
 ### Observations:
