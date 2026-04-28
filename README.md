@@ -53,6 +53,12 @@ Linear Search checks each element one by one until the target value is found.
 | 100        | 344000      | 115500     | 3300          |
 | 1000       | 8439900     | 258800     | 10100         |
 
+###  Key Findings
+
+- Bubble Sort is the slowest algorithm, especially on large datasets.
+- Merge Sort performs significantly faster and scales well.
+- Linear Search is simple but inefficient for large arrays.
+- The results confirm theoretical Big-O complexity in practice.
 
 ---
 ### Observations:
@@ -81,3 +87,11 @@ Here, the efficiency difference between Bubble Sort and Merge Sort is clearly vi
 -Linear Search is simple but not optimal for large data sizes. The experiment also showed that execution time can vary slightly due to system performance and JVM optimization.
 
 -One challenge was implementing Merge Sort correctly and ensuring accurate time measurement using `System.nanoTime()`. Overall, this project improved my understanding of algorithm efficiency and real-world performance analysis.
+
+###  Conclusion
+
+In this project, I implemented and compared three algorithms: Bubble Sort, Merge Sort, and Linear Search. The experiments showed that Merge Sort is significantly more efficient than Bubble Sort, especially for large datasets, due to its O(n log n) complexity.
+
+Bubble Sort performed poorly on larger arrays because of its O(n²) complexity, while Linear Search remained simple but not optimal for large inputs.
+
+Overall, this project helped me understand how algorithm complexity affects real execution time and how theoretical Big-O notation is reflected in practical results.
